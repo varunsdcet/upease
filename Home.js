@@ -981,9 +981,9 @@ _renderItemHospitalImageList=({item, index})=>{
                   Ongoing Consultation
                   </Text>
 <View style = {{ flexDirection:'row'}}>
-<Image style = {{width:50,height:50}}
+<Image style = {{width:50,height:50,margin:10}}
 source={{uri: this.state.dimage, priority: FastImage.priority.high,}}/>
-                  <Text style = {{color:'gray',fontSize: 16,width:'65%',fontFamily:'Avenir Roman', marginTop:10,alignSelf:'center', textAlign:'center', lineHeight:23}}>
+                  <Text style = {{color:'gray',fontSize: 16,width:'65%',fontFamily:'Avenir Roman', marginTop:10, lineHeight:23}}>
                   You have an ongoing consultation please join
                   </Text>
 
